@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Description</key>
+	<string>Make the selected text for onenote format.</string>
+	<key>Extension Name</key>
+	<string>OneNoteCopy</string>
+	<key>Extension Identifier</key>
+	<string>com.hanlyjiang.popclip.extension.onenote-copy</string>
+	<key>Pass HTML</key>
+	<true/>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>just_copy.png</string>
+			<key>Shell Script File</key>
+			<string>oneonte_copy.php</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Title</key>
+			<string>OneNote复制</string>
+			<key>Before</key>
+			<string>copy</string>
+			<key>After</key>
+			<string>copy-result</string>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>copy_paste.png</string>
+			<key>Shell Script File</key>
+			<string>oneonte_copy.php</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Title</key>
+			<string>OneNote复制粘贴</string>
+			<key>Before</key>
+			<string>copy</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+	</array>
+</dict>
+</plist>
