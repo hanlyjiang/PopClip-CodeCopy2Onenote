@@ -40,6 +40,20 @@
 			<key>After</key>
 			<string>paste-result</string>
 		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>copy_back.png</string>
+			<key>Shell Script File</key>
+			<string>oneonte_copy_back.php</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Title</key>
+			<string>OneNote粘贴到代码编辑器</string>
+			<key>Before</key>
+			<string>copy</string>
+			<key>After</key>
+			<string>copy-result</string>
+		</dict>
 	</array>
 </dict>
 </plist>
